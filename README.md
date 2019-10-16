@@ -1,4 +1,3 @@
-₿ 
 # Introduction
 Bitcoin tracker is a PoC for a microservice used to track currency rates.
 
