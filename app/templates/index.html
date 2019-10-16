@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>{{title}}</title>
+    <meta http-equiv="refresh" content={{page_refresh}}>
+  </head>
+  <body>
+    <div id="content">
+        <div id="logo">
+            <img src="{{ url_for('static', filename='bitcoin.png') }}">
+        </div>
+        <div id="container">
+            <center>
+                <div id="results">
+                    <p>{{bc_value}}
+                    <p>{{bc_average}}
+                </div>
+
+            </center>
+        </div>
+    </div>
+    <footer id ="footer">
+        <center>
+            Last API update: {{last_refresh}}
+        </center>
+    </footer>
+  </body>
+</html>
