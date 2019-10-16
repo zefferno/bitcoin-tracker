@@ -2,8 +2,8 @@ import json
 import logging
 import os
 import sqlite3
-
 import requests
+
 from apscheduler.schedulers.background import BackgroundScheduler
 from config import Config
 from flask import Flask, render_template, g
