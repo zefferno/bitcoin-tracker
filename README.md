@@ -5,7 +5,7 @@ Written using Python, Flask and SQLite. Running under Waitress WSGI Server.
 
 ## Requirements
 - Python 3.6+
-- Dependencies in requirements.txt
+- Dependencies listed in requirements.txt
 
 ## Manual build
 `docker build https://github.com/zefferno/bitcoin-tracker.git`
