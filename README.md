@@ -7,4 +7,4 @@ It is written using Python, Flask and SQLite. And running under Waitress WSGI Se
 - Dependencies in requirements.txt
 
 ## Manual build
-- docker build git@github.com:zefferno/bitcoin-tracker.git
+`docker build git@github.com:zefferno/bitcoin-tracker.git`
