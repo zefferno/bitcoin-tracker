@@ -104,8 +104,6 @@ venv.bak/
 .mypy_cache/
 
 # Custom stuff
-azure/_output/
-azure/translations/
 .vs/*
 db.sqlite
 .idea
