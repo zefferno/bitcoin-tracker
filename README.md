@@ -1,5 +1,7 @@
 # Introduction
-Bitcoin tracker is a PoC for a tiny microservice used to track Bitcoin currency rates.
+Bitcoin tracker is a tiny web-based microservice used to track currency rates.
+
+Meant to be used in K8s environment as a PoC.
 
 Written using Python, Flask and SQLite. Running under Waitress WSGI Server.
 
