@@ -1,7 +1,7 @@
 # Introduction
-Bitcoin tracker is a PoC for a lightweight microservice used to track Bitcoin currency rates in USD.
+Bitcoin tracker is a quickly written PoC for a tiny microservice used to track Bitcoin currency rates.
 
-Written using Python, Flask and SQLite. And running under Waitress WSGI Server.
+Written using Python, Flask and SQLite. Running under Waitress WSGI Server.
 
 ## Requirements
 - Python 3.6+
