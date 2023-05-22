@@ -1,6 +1,6 @@
 Flask>=1.0.2
 Flask-SocketIO>=1.4.2
-requests==2.22
+requests==2.31.0
 APScheduler==3.6.1
 itsdangerous==1.1.0
 Jinja2>=2.10
